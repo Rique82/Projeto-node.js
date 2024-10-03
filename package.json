@@ -1,0 +1,22 @@
+{
+  "name": "projeto-node",
+  "version": "0.0.0",
+  "description": "projeto node",
+  "main": "servidor.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch servidor.js"
+  },
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {},
+  "dependencies": {
+    "fastify": "^5.0.0",
+    "postgres": "^3.4.4"
+  }
+}
